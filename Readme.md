@@ -38,11 +38,17 @@ checout ja estou saindo da branch anterior e entrando na nova<br>
 -git commit -m "nome projeto"<br>
 -git push origin novo-botao<br>
 <br>
-------mudar branch-----------------------------<br>
+------mudar de branch-----------------------------<br>
 -git checkout nome-branch<br>
 <br>
 -----juntar as branch--------------------------<br>
 -git merge novo-botao<br>
 <br>
 -------- listar usuarios--------------------------<br>
-git config --list<br>
+-git config --list<br>
+<br>
+----------------------------------------------<br>
+-git rm arquivo> -remover arquivo<br>
+-git diff - mostra o que foi modificado<br>
+-git log and git log --oneline - mostra todos os que commits q foram feitos desde o inicio<br>
+-git commit -m "nome commit" --amend - emendar o commit 
