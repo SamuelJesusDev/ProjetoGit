@@ -1,46 +1,46 @@
 Usando o Git
 (Git) - um sistema versionamento de arquivo
-
-(banch) - ramificaçoes no codigo
-(Merge) - junção da banch alternativa com a banch principal
-(remote) - conexão do nosso repositorio local com o github
-(push) - colocar o commit que foi feito na maquina pro remote 
-(pull) - é ao contrario do push vc puxa o que que esta no repositorio do github pra sua maquina
----------------------------------------------
-1- git init- iniciar um repositorio vazio
-2- git add . ou (nome do arquivo)- para adicionar os projetos no stade.
-3- git status- ver os arquivos que estão no stade.
-4- git commit -m "primeiro" - comitar - postei as alterações 
-5- git branch -M "main" ou ("master")
-
-----------------------remote------------------
-6- git remote add origin <link.git>
-7- git push -u origin main ou (master)
-
----------baixar para sua marquina-------------
-8- git clone <link.git>
-
----------baixar atualização do github--------- 
-9- git pull
-
---------------------versionamento-------------
--git add .
+<br>
+(banch) - ramificaçoes no codigo <br>
+(Merge) - junção da banch alternativa com a banch principal<br>
+(remote) - conexão do nosso repositorio local com o github<br>
+(push) - colocar o commit que foi feito na maquina pro remote <br>
+(pull) - é ao contrario do push vc puxa o que que esta no repositorio do github pra sua maquina<br>
+---------------------------------------------<br>
+1- git init- iniciar um repositorio vazio<br>
+2- git add . ou (nome do arquivo)- para adicionar os projetos no stade.<br>
+3- git status- ver os arquivos que estão no stade.<br>
+4- git commit -m "primeiro" - comitar - postei as alterações <br>
+5- git branch -M "main" ou ("master")<br>
+<br>
+----------------------remote------------------<br>
+6- git remote add origin <link.git><br>
+7- git push -u origin main ou (master)<br>
+<br>
+---------baixar para sua marquina-------------<br>
+8- git clone <link.git><br>
+<br>
+---------baixar atualização do github--------- <br>
+9- git pull<br>
+<br>
+--------------------versionamento-------------<br>
+-git add .<br>
 -git status
--git commit -m "nome projeto"
--git push origin main (sem -u)
-
-------------criando nova branch---------------
-checout ja estou saindo da branch anterior e entrando na nova
--git checkout -b "novo-botao"
-------novo commit-----------------------------
--git add .
--git status
--git commit -m "nome projeto"
--git push origin novo-botao
-
-------mudar branch-----------------------------
--git checkout nome-branch
-
------juntar as branch--------------------------
--git merge novo-botao
+-git commit -m "nome projeto"<br>
+-git push origin main (sem -u)<br>
+<br>
+------------criando nova branch---------------<br>
+checout ja estou saindo da branch anterior e entrando na nova<br>
+-git checkout -b "novo-botao"<br>
+------novo commit-----------------------------<br>
+-git add .<br>
+-git status<br>
+-git commit -m "nome projeto"<br>
+-git push origin novo-botao<br>
+<br>
+------mudar branch-----------------------------<br>
+-git checkout nome-branch<br>
+<br>
+-----juntar as branch--------------------------<br>
+-git merge novo-botao<br>
 
