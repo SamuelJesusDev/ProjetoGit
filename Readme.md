@@ -1,4 +1,4 @@
-Usando o Git
+Usando o Git<br>
 (Git) - um sistema versionamento de arquivo
 <br>
 (banch) - ramificaçoes no codigo <br>
@@ -43,4 +43,6 @@ checout ja estou saindo da branch anterior e entrando na nova<br>
 <br>
 -----juntar as branch--------------------------<br>
 -git merge novo-botao<br>
-
+<br>
+-------- listar usuarios--------------------------<br>
+git config --list<br>
