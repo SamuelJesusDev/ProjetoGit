@@ -32,6 +32,7 @@ Usando o Git<br>
 ------------criando nova branch---------------<br>
 checout ja estou saindo da branch anterior e entrando na nova<br>
 -git checkout -b "novo-botao"<br>
+-git checout -d  novo-botao - remover branch <br>
 ------novo commit-----------------------------<br>
 -git add .<br>
 -git status<br>
@@ -51,4 +52,5 @@ checout ja estou saindo da branch anterior e entrando na nova<br>
 -git rm arquivo> -remover arquivo<br>
 -git diff - mostra o que foi modificado<br>
 -git log and git log --oneline - mostra todos os que commits q foram feitos desde o inicio<br>
--git commit -m "nome commit" --amend - emendar o commit 
+-git commit -m "nome commit" --amend - emendar o commit <br>
+-git reset HEAD~1 --hard OU soft <nome commit> - remover commit anterior<br>
