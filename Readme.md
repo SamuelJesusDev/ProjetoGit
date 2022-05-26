@@ -58,6 +58,5 @@ Usando o Git<br>
 -git diff - mostra o que foi modificado<br>
 -git log and git log --oneline (or) git reflog - mostra todos os que commits q foram feitos desde o inicio<br>
 -git commit -m "nome commit" --amend - emendar o commit <br>
-
 -git reset HEAD~1 --hard OU soft (or) git reset --hard 8c12458 - voltar para o commit anterior e atual (para navegar entre versões de codigo)<br><br>
 ------------------------------------------
