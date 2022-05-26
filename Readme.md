@@ -34,7 +34,7 @@ Usando o Git<br>
 -git branch nome-da-branch - (criar nova branch)<br> 
 -git branch - (ver as branchs existentes)<br>
 -git checkout -b "novo-botao"-( entrar nova branch checout ja estou saindo da branch anterior e entrando na nova)<br>
--git checout -D  novo-botao - (remover branch) <br>
+-git checkout -D  novo-botao - (remover branch) <br>
 -git checkout nome-branch -(mudar de branch)<br> 
 -git push --set-upstream origin nome-branch - (adicionar nova branch no github)<br>
 ---------------gitignore----------------------<br>
