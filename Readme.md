@@ -1,3 +1,4 @@
+<br>
 Usando o Git<br>
 (Git) - um sistema versionamento de arquivo
 <br>
@@ -61,4 +62,4 @@ Usando o Git<br>
 -git reset HEAD~1 --hard OU soft (or) git reset --hard 8c12458 - voltar para o commit anterior e atual (para navegar entre versões de codigo)
 
 <br><br>
-------------------------------------------
+-----------
