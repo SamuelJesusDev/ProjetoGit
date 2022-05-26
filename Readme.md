@@ -1,8 +1,8 @@
 Usando o Git<br>
 (Git) - um sistema versionamento de arquivo
 <br>
-(banch) - ramificaçoes no codigo <br>
-(Merge) - junção da banch alternativa com a banch principal<br>
+(branch) - ramificaçoes no codigo <br>
+(Merge) - junção da branch alternativa com a banch principal<br>
 (remote) - conexão do nosso repositorio local com o github<br>
 (push) - colocar o commit que foi feito na maquina pro remote <br>
 (pull) - é ao contrario do push vc puxa o que que esta no repositorio do github pra sua maquina<br>
