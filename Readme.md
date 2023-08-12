@@ -1,5 +1,3 @@
-Claro, aqui está o texto estilizado com Markdown:
-
 # Guia de Uso do Git
 
 O Git é um sistema de versionamento de arquivos que permite gerenciar o histórico e colaborar em projetos de desenvolvimento de software. Abaixo estão alguns conceitos e comandos básicos do Git.
