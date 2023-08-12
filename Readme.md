@@ -1,65 +1,41 @@
-<br>
-Usando o Git<br>
-(Git) - um sistema versionamento de arquivo
-<br>
-(branch) - ramificaçoes no codigo <br>
-(Merge) - junção da branch alternativa com a banch principal<br>
-(remote) - conexão do nosso repositorio local com o github<br>
-(push) - colocar o commit que foi feito na maquina pro remote <br>
-(pull) - é ao contrario do push vc puxa o que que esta no repositorio do github pra sua maquina<br>
------------------------comandos basicos----------------------<br>
-1- git init- iniciar um repositorio vazio<br>
-2- git add . ou (nome do arquivo)- para adicionar os projetos no stade.<br>
-3- git status- ver os arquivos que estão no stade.<br>
-4- git commit -m "primeiro" - comitar - postei as alterações <br>
-<br>
-----------------------remote------------------<br>
-6- git remote add origin <link.git><br>
-7- git push -u origin main ou (master)<br>
-<br>
----------baixar para sua marquina-------------<br>
-8- git clone <link.git><br>
-<br>
----------baixar atualização do github--------- <br>
-9- git pull<br>
-<br>
---------------------versionamento-------------<br>
--git add .<br>
--git status<br>
--git commit -m "nome projeto"<br>
--git push origin main (sem -u)<br>
-<br>
-------------criando nova branch---------------<br>
--git branch -M "main" ou ("master")- (alterar o nome da branch)<br> 
--git branch nome-da-branch - (criar nova branch)<br> 
--git branch - (ver as branchs existentes)<br>
--git checkout -b "novo-botao"-( entrar nova branch checout ja estou saindo da branch anterior e entrando na nova)<br>
--git checkout -D  novo-botao - (remover branch) <br>
--git checkout nome-branch -(mudar de branch)<br> 
--git push --set-upstream origin nome-branch - (adicionar nova branch no github)<br>
----------------gitignore----------------------<br>
- touch .gitignore<br>
-------novo commit-----------------------------<br>
--git add .<br>
--git status<br>
--git commit -m "nome projeto"<br>
--git push origin novo-botao<br>
-<br>
-------mudar de branch-----------------------------<br>
--git checkout nome-branch<br>
-<br>
------juntar as branch--------------------------<br>
--git merge novo-botao<br>
-<br>
--------- listar usuarios--------------------------<br>
--git config --list<br>
-<br>
-----------------------------------------------<br>
--git rm arquivo> -remover arquivo<br>
--git diff - mostra o que foi modificado<br>
--git log and git log --oneline (or) git reflog - mostra todos os que commits q foram feitos desde o inicio<br>
--git commit -m "nome commit" --amend - emendar o commit <br>
--git reset HEAD~1 --hard OU soft (or) git reset --hard 8c12458 - voltar para o commit anterior e atual (para navegar entre versões de codigo)
+Guia de Uso do Git
+O Git é um sistema de versionamento de arquivos que permite gerenciar o histórico e colaborar em projetos de desenvolvimento de software. Abaixo estão alguns conceitos e comandos básicos do Git.
 
-<br><br>
------------
+Conceitos Principais
+Git: Um sistema de controle de versão de arquivos.
+Branch: Ramificações no código que permitem trabalhar em paralelo em diferentes recursos ou problemas.
+Merge: A junção de uma ramificação alternativa com a ramificação principal.
+Remote: A conexão do seu repositório local com um repositório remoto, como o GitHub.
+Push: Enviar commits feitos localmente para o repositório remoto.
+Pull: Obter atualizações do repositório remoto para o seu repositório local.
+Comandos Básicos
+git init: Inicia um novo repositório vazio.
+git add . ou git add nome-do-arquivo: Adiciona as alterações no estágio (staging area).
+git status: Mostra os arquivos que estão no estágio.
+git commit -m "mensagem": Confirma as alterações no repositório.
+git push origin main (ou outra ramificação): Envia os commits para o repositório remoto.
+Trabalhando com Branches
+git branch -M main (ou git branch -M master): Altera o nome da ramificação principal.
+git branch nome-da-branch: Cria uma nova ramificação.
+git branch: Lista as ramificações existentes.
+git checkout -b novo-botao: Cria e muda para uma nova ramificação.
+git checkout -D novo-botao: Remove uma ramificação.
+git checkout nome-branch: Muda para outra ramificação.
+git push --set-upstream origin nome-branch: Adiciona uma nova ramificação no repositório remoto.
+Ignorar Arquivos
+Crie um arquivo .gitignore e liste os arquivos/diretórios que você deseja ignorar.
+
+Realizando Commits
+git add .
+git commit -m "mensagem"
+git push origin novo-botao (ou outra ramificação)
+Outros Comandos Úteis
+git rm arquivo: Remove um arquivo do repositório.
+git diff: Mostra as modificações feitas nos arquivos.
+git log ou git log --oneline ou git reflog: Mostra o histórico de commits.
+git commit -m "mensagem" --amend: Emenda o último commit.
+git reset HEAD~1 --hard ou git reset --hard commit-hash: Volta para um commit anterior.
+git merge novo-botao: Realiza a junção de duas ramificações.
+Configurações
+git config --list: Lista as configurações do Git.
+Lembre-se de que o Git é uma ferramenta poderosa para o desenvolvimento colaborativo e controle de versão. Certifique-se de praticar esses comandos em um ambiente seguro e fazer uso deles de maneira apropriada para a situação do seu projeto.
